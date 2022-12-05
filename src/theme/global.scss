@@ -1,0 +1,269 @@
+/* Add CSS Of global Compoenet */
+
+@import 'includes';
+
+body {
+  background-color: $pageBg;
+}
+
+h1 {
+  font-family: 'ClashDisplay-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: $darkText;
+}
+
+h2 {
+  font-family: 'Sora-Regular';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: $darkText;
+}
+
+// label global selectors
+
+.l1 {
+  font-family: 'Sora-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: $themeLightText;
+}
+
+.l2 {
+  font-family: 'Sora-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: $themeLightText;
+}
+
+// Body global selectors
+
+.b1 {
+  font-family: 'Sora-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: $themeDarkText;
+}
+
+.b2 {
+  font-family: 'Sora-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: $themeDarkText;
+}
+
+.b3 {
+  font-family: 'Sora-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: $themeDarkText;
+}
+
+button,
+button>span {
+  font-family: 'ClashDisplay-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: $themeDarkText;
+}
+
+.theme-button,
+.theme-button:hover,
+.theme-button:focus,
+.theme-button:active {
+  background-color: $themeColor3;
+  background: $themeColor3;
+  border-color: transparent;
+}
+
+.anticon {
+  color: $themeDarkText;
+}
+
+.ant-btn-icon-only.ant-btn-lg {
+  width: 48px;
+  height: 48px;
+}
+
+.ant-card-body {
+  padding: 24px 0px 22px 32px;
+}
+
+.breadcrumb-icon {
+  height: 48px;
+  width: 48px;
+}
+
+.breadcrumb-icon:hover {
+  color: black;
+  background-color: white;
+  border-color: #E3DDD0;
+}
+
+.breadcrumb-heading {
+  line-height: 16px;
+}
+
+.breadcrumb-link a {
+  color: #F9AB01;
+  width: '88px';
+  height: '24px';
+}
+
+.ant-breadcrumb li:last-child span {
+  color: #8A817E;
+}
+
+.breadcrumb-button {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.breadcrumb {
+  padding: 10px;
+}
+
+.ant-modal-close-x {
+  color: $themeBorderColor;
+  font-size: 14px;
+  line-height: 62px;
+}
+
+.ant-modal-header {
+  border-radius: 16px;
+  padding: 16px 22px 8px 22px;
+}
+
+.ant-modal-content {
+  border-radius: 16px;
+  width: 480px;
+  height: 196px;
+}
+
+.ant-modal-body {
+  padding: 18px;
+}
+
+.ant-modal-footer {
+  padding: 8px 16px;
+  border-top: 1px solid transparent;
+  border-radius: 0 0 2px 2px;
+}
+
+.anticon-search svg {
+  color: #8A817E;
+  height: 16px;
+  width: 16px;
+}
+
+.search-box {
+  border-radius: 20px;
+  width: 350px;
+}
+
+.search-box input {
+  height: 30px;
+}
+
+textarea.ant-input {
+  border-radius: 10px;
+  max-width: none;
+  height: 120px;
+  width: 560px;
+  resize: none;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: black;
+  border-color: black;
+}
+
+.ant-upload.ant-upload-select-picture-card {
+  border-radius: 10px;
+  height: 280px;
+  width: 560px;
+}
+
+.ant-upload-list-picture-card-container {
+  height: 280px;
+  width: 280px;
+}
+
+.ant-upload-list-picture-card .ant-upload-list-item-actions {
+  right: 18px;
+  top: 28px;
+  left: auto;
+}
+
+.ant-upload-list-picture-card .ant-upload-list-item-actions .anticon-delete,
+.ant-upload-list-picture-card .ant-upload-list-item-actions .anticon-delete:hover {
+  background: white;
+  border-radius: 8px;
+  height: 32px;
+  width: 32px;
+  color: black;
+  padding: 8px;
+}
+
+.ant-upload-list-picture-card .ant-upload-list-item-actions .anticon-eye,
+.ant-upload-list-picture-card .ant-upload-list-item-actions .anticon-eye:hover {
+  display: none;
+}
+
+.ant-btn .anticon {
+  transition: margin-left 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.ant-btn-icon-only>.anticon {
+  display: flex;
+  justify-content: center;
+}
+
+.ant-upload {
+  p {
+    &:nth-child(3) {
+      color: $themeLightText;
+      line-height: 30px;
+    }
+  }
+}
+
+.upload-span {
+  color: $AccentRed;
+}
+
+.upload-label {
+  line-height: 30px;
+}
+
+.list-count {
+  width: 325px;
+  height: 80px;
+}
+
+.list-count h1 {
+  line-height: 16px;
+  color: black;
+}
+
+.list-count div {
+  line-height: 12px;
+  color: #8A817E;
+}
